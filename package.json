@@ -7,7 +7,8 @@
     "test": "xo",
     "build": "rm -rf dist && mkdir -p dist && babel lib --out-dir dist",
     "watch": "rm -rf dist && mkdir -p dist && babel -w lib --out-dir dist",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "posttest": "readme package.json > readme.md"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/kesla/http-https-agent#readme",
   "devDependencies": {
     "babel-cli": "^6.10.1",
+    "package-json-to-readme": "^1.5.1",
     "xo": "^0.16.0"
   },
   "dependencies": {
