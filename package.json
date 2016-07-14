@@ -22,6 +22,7 @@
   "homepage": "https://github.com/kesla/http-https-agent#readme",
   "devDependencies": {
     "babel-cli": "^6.10.1",
+    "babel-preset-es2015-node4": "2.1.0",
     "package-json-to-readme": "^1.5.1",
     "xo": "^0.16.0"
   },
